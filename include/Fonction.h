@@ -105,8 +105,8 @@ void readKp4x4() {
           break;
       }     
 
-            appendPayload("Intenaite", Intensite);  //Ajout de la donnée Etat Pompe au message MQTT
-            appendPayload("LED Selectionner ", LedSelectedString); //Ajout de la donnée Conductivity au message MQTT
+            appendPayload("Intenaite", Intensite);  //Ajout de la donnée  au message MQTT
+            appendPayload("LED Selectionner ", LedSelectedString); //Ajout de la donnée au message MQTT
             sendPayload();  //Envoie du message via le protocole MQTT
 
  }
